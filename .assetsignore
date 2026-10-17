@@ -1,0 +1,8 @@
+# Files in the repo that must NOT be published to beatingu.com.
+README.md
+wrangler.jsonc
+.assetsignore
+.gitignore
+.wrangler/
+.git/
+.DS_Store
