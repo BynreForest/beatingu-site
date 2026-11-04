@@ -142,6 +142,12 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   box-shadow: 0 10px 34px -8px rgba(124, 92, 255, .6);
 }
 .btn--vision:hover { transform: translateY(-2px); box-shadow: 0 16px 44px -8px rgba(124, 92, 255, .75); }
+.btn--running {
+  color: #1a0d02;
+  background: linear-gradient(100deg, #ffc93c, #ff6a1f);
+  box-shadow: 0 10px 34px -8px rgba(255, 122, 31, .55);
+}
+.btn--running:hover { transform: translateY(-2px); box-shadow: 0 16px 44px -8px rgba(255, 122, 31, .7); }
 .btn--ghost { border: 1px solid var(--border); background: var(--card); }
 .btn--ghost:hover { transform: translateY(-2px); border-color: var(--faint); }
 
@@ -335,6 +341,12 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .finale__icons img:first-child { transform: rotate(-6deg); }
 .finale__title { font-size: clamp(44px, 8vw, 88px); font-weight: 800; }
 .finale__lede { margin: 20px 0 34px; color: var(--muted); font-size: clamp(18px, 2vw, 21px); }
+.finale__stores { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px 28px; }
+.finale__stores li { display: grid; justify-items: center; gap: 10px; }
+.finale__store-name {
+  font: 600 12px/1.2 var(--font-mono); letter-spacing: .14em; text-transform: uppercase;
+  color: var(--accent-1);
+}
 
 /* ── Footer ───────────────────────────────────────────── */
 .footer { border-top: 1px solid var(--border); padding: 28px 0 calc(28px + env(safe-area-inset-bottom)); color: var(--faint); font-size: 14px; }

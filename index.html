@@ -51,7 +51,7 @@
           <p class="hero__lede">BeatingU turns everyday skills &mdash; how sharp you see, how fast you run &mdash; into a score your friends can try to beat. Play, post to the leaderboard, and send the challenge.</p>
           <div class="hero__ctas">
             <a class="btn btn--vision" href="#vision">Play Vision Challenge</a>
-            <a class="btn btn--ghost" href="#running">Meet Running Challenge</a>
+            <a class="btn btn--running" href="#running">Play Running Challenge</a>
           </div>
         </div>
 
@@ -128,7 +128,7 @@
             <img class="game__icon" src="assets/icons/beatingu-running.png" alt="BeatingU: Running Challenge app icon" width="72" height="72">
             <div>
               <p class="game__name">BeatingU: Running Challenge</p>
-              <span class="pill pill--soon">Coming soon</span>
+              <span class="pill pill--live">Live on the App Store</span>
             </div>
           </div>
           <h2 id="running-title" class="game__title">Hit GO.<br><span class="grad">Just run.</span></h2>
@@ -150,7 +150,10 @@
           </ul>
 
           <div class="game__actions">
-            <span class="store-pending">Coming soon to the App Store</span>
+            <a class="store-badge" href="https://apps.apple.com/us/app/beatingu-running-challenge/id6820239322" target="_blank" rel="noopener">
+              <img src="assets/badges/app-store-badge.svg" alt="Download BeatingU: Running Challenge on the App Store" height="44" onerror="this.parentElement.classList.add('store-badge--missing')">
+              <span class="store-badge__fallback">Download on the App Store</span>
+            </a>
             <a class="text-link" href="https://brendangaynor.com/apps/beatingu-running">How it was built &rarr;</a>
           </div>
           <p class="fineprint">Run outdoors with a clear view of the sky, and stay aware of your surroundings. <a href="https://brendangaynor.com/privacy/beatingu-running">Privacy Policy</a></p>
@@ -198,11 +201,23 @@
           <img src="assets/icons/beatingu-running.png" alt="" width="96" height="96">
         </div>
         <h2 id="finale-title" class="finale__title">Who&rsquo;s beating <span class="grad grad--brand">who?</span></h2>
-        <p class="finale__lede">Start with Vision Challenge today. Running Challenge is on its way.</p>
-        <a class="store-badge store-badge--lg" href="https://apps.apple.com/us/app/beatingu-vision-challenge/id6804060890" target="_blank" rel="noopener">
-          <img src="assets/badges/app-store-badge.svg" alt="Download BeatingU: Vision Challenge on the App Store" height="52" onerror="this.parentElement.classList.add('store-badge--missing')">
-          <span class="store-badge__fallback">Download on the App Store</span>
-        </a>
+        <p class="finale__lede">Both games are live on the App Store. Pick your challenge.</p>
+        <ul class="finale__stores">
+          <li class="theme-vision">
+            <a class="store-badge store-badge--lg" href="https://apps.apple.com/us/app/beatingu-vision-challenge/id6804060890" target="_blank" rel="noopener">
+              <img src="assets/badges/app-store-badge.svg" alt="Download BeatingU: Vision Challenge on the App Store" height="52" onerror="this.parentElement.classList.add('store-badge--missing')">
+              <span class="store-badge__fallback">Download on the App Store</span>
+            </a>
+            <span class="finale__store-name" aria-hidden="true">Vision Challenge</span>
+          </li>
+          <li class="theme-running">
+            <a class="store-badge store-badge--lg" href="https://apps.apple.com/us/app/beatingu-running-challenge/id6820239322" target="_blank" rel="noopener">
+              <img src="assets/badges/app-store-badge.svg" alt="Download BeatingU: Running Challenge on the App Store" height="52" onerror="this.parentElement.classList.add('store-badge--missing')">
+              <span class="store-badge__fallback">Download on the App Store</span>
+            </a>
+            <span class="finale__store-name" aria-hidden="true">Running Challenge</span>
+          </li>
+        </ul>
       </div>
     </section>
   </main>
